@@ -18,6 +18,7 @@
   - [RNF-01 Rendimiento](#rnf-01-rendimiento)
   - [RNF-02 Seguridad](#rnf-02-seguridad)
 -[Tabla de Trazabilidad](#Tabla-de-trazabilidad)
+
 #RF-01 - Crear Pedido 🛒💵
 #HU-01 - Crear Pedido 🛒💵
 ---
@@ -43,6 +44,16 @@ Criterios de Aceptación
 - No debe confirmarse pedido si el pago falla.
 - Debe mostrarse confirmación de pago exitoso.
 
+##RF-03 Seguimiento de Pedido 🛒💵
+##HU-03 – Seguimiento de Pedido 🛒💵
+---
+Como usuario registrado
+quiero ver el estado de mi pedido
+para saber cuándo llegará
+Criterios de Aceptación
+- Debe mostrar estados: en preparación, en camino, entregado.
+- Debe actualizarse en tiempo real.
+- Solo el propietario del pedido puede verlo.
 
 ## Tabla de Trazabilidad
 - | HU | RF | Caso de Prueba | Estado |
@@ -56,3 +67,4 @@ Criterios de Aceptación
 | HU-03 Seguimiento de Pedido | RF-03 Seguimiento de Pedido | Confirmar que el estado del pedido se actualice en tiempo real. | Pendiente |
 | HU-03 Seguimiento de Pedido | RF-03 Seguimiento de Pedido | Validar que solo el propietario del pedido pueda visualizar su estado. | Pendiente |
 | HU-03 Seguimiento de Pedido | RNF-01 Rendimiento | Verificar que la consulta de estado del pedido responda en menos de 2 segundos. | Pendiente |
+=======
