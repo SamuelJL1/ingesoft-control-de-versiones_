@@ -58,6 +58,12 @@ Criterios de Aceptación
 - Debe actualizarse en tiempo real.
 - Solo el propietario del pedido puede verlo.
 
+# Requerimientos No Funcionales
+## RNF-01 Rendimiento:
+## Las consultas de estado deben responder en menos de 2 segundos.
+## RNF-02 Seguridad:
+## La información de pago debe transmitirse mediante protocolo seguro.
+
 ## Tabla de Trazabilidad
 | HU | RF | Caso de Prueba | Estado |
 |----|----|---------------|--------|
@@ -70,4 +76,3 @@ Criterios de Aceptación
 | HU-03 Seguimiento de Pedido | RF-03 Seguimiento de Pedido | Confirmar que el estado del pedido se actualice en tiempo real. | Pendiente |
 | HU-03 Seguimiento de Pedido | RF-03 Seguimiento de Pedido | Validar que solo el propietario del pedido pueda visualizar su estado. | Pendiente |
 | HU-03 Seguimiento de Pedido | RNF-01 Rendimiento | Verificar que la consulta de estado del pedido responda en menos de 2 segundos. | Pendiente |
-=======
