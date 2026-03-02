@@ -17,17 +17,7 @@
 - [Requisitos No Funcionales](#requisitos-no-funcionales)
   - [RNF-01 Rendimiento](#rnf-01-rendimiento)
   - [RNF-02 Seguridad](#rnf-02-seguridad)
--[Tabla de Trazabilidad](#Tabla-de-trazabilidad)
-#RF-01 - Crear Pedido 🛒💵
-#HU-01 - Crear Pedido 🛒💵
----
-El usuario registrado debe de poder seleccionar productos y agregarlos al carrito para realizar una compra.
+  - [Tabla de Trazabilidad](#Tabla-de-trazabilidad)
 
-Criterios de Aceptación
 
-El usuario debe estar autenticado.
-
-Debe mostrarse el valor total actualizado.
-
-El sistema debe permitir modificar cantidades.
 
