@@ -17,3 +17,5 @@
 - [Requisitos No Funcionales](#requisitos-no-funcionales)
   - [RNF-01 Rendimiento](#rnf-01-rendimiento)
   - [RNF-02 Seguridad](#rnf-02-seguridad)
+-[Tabla de Trazabilidad](#Tabla-de-trazabilidad)
+
