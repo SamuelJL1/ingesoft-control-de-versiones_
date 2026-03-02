@@ -2,9 +2,14 @@
 
 
 
-### RF-02 Reserva de Sala
-### HU-02 – Reserva de Sala
+## RF-02 Pago del Pedido
+### HU-02 – Pagar Pedido
 
 Como usuario registrado
-quiero reservar una sala indicando fecha y hora
-para utilizar el espacio en el horario seleccionado
+quiero pagar mi pedido con tarjeta
+para confirmar la compra
+
+Criterios de Aceptación
+- Debe validarse información de la tarjeta.
+- No debe confirmarse pedido si el pago falla.
+- Debe mostrarse confirmación de pago exitoso.
